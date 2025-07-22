@@ -1,0 +1,313 @@
+#wrap {}
+#wrap header {}
+#wrap header #header_top {}
+#wrap header #header_top h1 {}
+#wrap header #header_top h1 a {}
+#wrap header #header_top h1 a img {}
+#wrap header #header_top .header_top_right {}
+#wrap header #header_top .header_top_right a {}
+#wrap header #header_top .header_top_right a:first-child {}
+#wrap header #header_top .header_top_right a:last-child {}
+#wrap header #header_bottom {}
+#wrap header #header_bottom .header_bottom_left {}
+#wrap header #header_bottom .header_bottom_left nav {}
+#wrap header #header_bottom .header_bottom_left nav .gnb{}
+#wrap header #header_bottom .header_bottom_left nav .gnb button {}
+#wrap header #header_bottom .header_bottom_left nav .gnb button img {}
+#wrap header #header_bottom .header_bottom_left nav .gnb .lnb {}
+#wrap header #header_bottom .header_bottom_right {}
+#wrap header #header_bottom .header_bottom_right input {}
+#wrap header #header_bottom .header_bottom_right a {}
+#wrap header #header_bottom .header_bottom_right a img {}
+#wrap main {}
+#wrap main .main_bn {}
+#wrap main .main_bn a {}
+#wrap main .main_bn a:first-child {}
+#wrap main .main_bn a:first-child img {}
+#wrap main .main_bn a:first-child p {}
+#wrap main .main_bn a:first-child p em {}
+#wrap main .main_bn a:first-child p span {}
+#wrap main .main_bn a:last-child {}
+#wrap main .main_bn a:last-child img {}
+#wrap main .main_bn a:last-child p {}
+#wrap main .main_bn a:last-child p em {}
+#wrap main .main_bn a:last-child p span {}
+#wrap main .main_bn a img {}
+#wrap main .main_bn a p {}
+#wrap main .main_bn a p em {}
+#wrap main .main_bn a p span {}
+#wrap main .color_products {}
+#wrap main .color_products .red_color {}
+#wrap main .color_products .red_color > em {}
+#wrap main .color_products .red_color > button {}
+#wrap main .color_products .red_color > button img {}
+#wrap main .color_products .red_color #red_product_wrap {}
+#wrap main .color_products .red_color #red_product_wrap .red_product_container {}
+#wrap main .color_products .red_color #red_product_wrap .red_product_container p {}
+#wrap main .color_products .red_color #red_product_wrap .red_product_container p a {}
+#wrap main .color_products .red_color #red_product_wrap .red_product_container p a img {}
+#wrap main .color_products .red_color #red_product_wrap .red_product_container .red_product_contents {}
+#wrap main .color_products .red_color #red_product_wrap .red_product_container .red_product_contents .one_line {}
+#wrap main .color_products .red_color #red_product_wrap .red_product_container .red_product_contents .one_line .platform_brand {}
+#wrap main .color_products .red_color #red_product_wrap .red_product_container .red_product_contents .one_line .platform_brand .platform {}
+#wrap main .color_products .red_color #red_product_wrap .red_product_container .red_product_contents .one_line .platform_brand img {}
+#wrap main .color_products .red_color #red_product_wrap .red_product_container .red_product_contents .one_line .platform_brand .brand {}
+#wrap main .color_products .red_color #red_product_wrap .red_product_container .red_product_contents .one_line > a {}
+#wrap main .color_products .red_color #red_product_wrap .red_product_container .red_product_contents .one_line > a img {}
+#wrap main .color_products .red_color #red_product_wrap .red_product_container .red_product_contents .two_line {}
+#wrap main .color_products .red_color #red_product_wrap .red_product_container .red_product_contents .two_line > p {}
+#wrap main .color_products .red_color #red_product_wrap .red_product_container .red_product_contents .two_line > p a {}
+#wrap main .color_products .red_color #red_product_wrap .red_product_container .red_product_contents .two_line > p:first-child {}
+#wrap main .color_products .red_color #red_product_wrap .red_product_container .red_product_contents .two_line > p:first-child a {}
+#wrap main .color_products .red_color #red_product_wrap .red_product_container .red_product_contents .two_line > p:last-child {}
+#wrap main .color_products .red_color #red_product_wrap .red_product_container .red_product_contents .two_line > p:last-child a {}
+#wrap main .color_products .red_color #red_product_wrap .red_product_container .red_product_contents .product_event {}
+#wrap main .color_products .red_color #red_product_wrap .red_product_container .red_product_contents .product_event em {}
+#wrap main .color_products .red_color #red_product_wrap .red_product_container .red_product_contents .product_event em:first-child {}
+#wrap main .color_products .red_color #red_product_wrap .red_product_container .red_product_contents .product_event em:last-child {}
+#wrap main .color_products .red_color #red_product_wrap li:nth-child(2) {}
+#wrap main .color_products .red_color #red_product_wrap li:nth-child(2) img {}
+#wrap main .color_products .green_color {}
+#wrap main .color_products .green_color > em {}
+#wrap main .color_products .green_color > button {}
+#wrap main .color_products .green_color > button img {}
+#wrap main .color_products .green_color #green_product_wrap {}
+#wrap main .color_products .green_color #green_product_wrap .green_product_container {}
+#wrap main .color_products .green_color #green_product_wrap .green_product_container p {}
+#wrap main .color_products .green_color #green_product_wrap .green_product_container p a {}
+#wrap main .color_products .green_color #green_product_wrap .green_product_container p a img {}
+#wrap main .color_products .green_color #green_product_wrap .green_product_container .green_product_contents {}
+#wrap main .color_products .green_color #green_product_wrap .green_product_container .green_product_contents .one_line {}
+#wrap main .color_products .green_color #green_product_wrap .green_product_container .green_product_contents .one_line .platform_brand {}
+#wrap main .color_products .green_color #green_product_wrap .green_product_container .green_product_contents .one_line .platform_brand .platform {}
+#wrap main .color_products .green_color #green_product_wrap .green_product_container .green_product_contents .one_line .platform_brand img {}
+#wrap main .color_products .green_color #green_product_wrap .green_product_container .green_product_contents .one_line .platform_brand .brand {}
+#wrap main .color_products .green_color #green_product_wrap .green_product_container .green_product_contents .one_line > a {}
+#wrap main .color_products .green_color #green_product_wrap .green_product_container .green_product_contents .one_line > a img {}
+#wrap main .color_products .green_color #green_product_wrap .green_product_container .green_product_contents .two_line {}
+#wrap main .color_products .green_color #green_product_wrap .green_product_container .green_product_contents .two_line > p {}
+#wrap main .color_products .green_color #green_product_wrap .green_product_container .green_product_contents .two_line > p a {}
+#wrap main .color_products .green_color #green_product_wrap .green_product_container .green_product_contents .two_line > p:first-child {}
+#wrap main .color_products .green_color #green_product_wrap .green_product_container .green_product_contents .two_line > p:first-child a {}
+#wrap main .color_products .green_color #green_product_wrap .green_product_container .green_product_contents .two_line > p:last-child {}
+#wrap main .color_products .green_color #green_product_wrap .green_product_container .green_product_contents .two_line > p:last-child a {}
+#wrap main .color_products .green_color #green_product_wrap .green_product_container .green_product_contents .product_event {}
+#wrap main .color_products .green_color #green_product_wrap .green_product_container .green_product_contents .product_event em {}
+#wrap main .color_products .green_color #green_product_wrap .green_product_container .green_product_contents .product_event em:first-child {}
+#wrap main .color_products .green_color #green_product_wrap .green_product_container .green_product_contents .product_event em:last-child {}
+#wrap main .color_products .green_color #green_product_wrap li:nth-child(2) {}
+#wrap main .color_products .green_color #green_product_wrap li:nth-child(2) img {}
+#wrap main .color_products .pink_color {}
+#wrap main .color_products .pink_color > em {}
+#wrap main .color_products .pink_color > button {}
+#wrap main .color_products .pink_color > button img {}
+#wrap main .color_products .pink_color #pink_product_wrap {}
+#wrap main .color_products .pink_color #pink_product_wrap .pink_product_container {}
+#wrap main .color_products .pink_color #pink_product_wrap .pink_product_container p {}
+#wrap main .color_products .pink_color #pink_product_wrap .pink_product_container p a {}
+#wrap main .color_products .pink_color #pink_product_wrap .pink_product_container p a img {}
+#wrap main .color_products .pink_color #pink_product_wrap .pink_product_container .pink_product_contents {}
+#wrap main .color_products .pink_color #pink_product_wrap .pink_product_container .pink_product_contents .one_line {}
+#wrap main .color_products .pink_color #pink_product_wrap .pink_product_container .pink_product_contents .one_line .platform_brand {}
+#wrap main .color_products .pink_color #pink_product_wrap .pink_product_container .pink_product_contents .one_line .platform_brand .platform {}
+#wrap main .color_products .pink_color #pink_product_wrap .pink_product_container .pink_product_contents .one_line .platform_brand img {}
+#wrap main .color_products .pink_color #pink_product_wrap .pink_product_container .pink_product_contents .one_line .platform_brand .brand {}
+#wrap main .color_products .pink_color #pink_product_wrap .pink_product_container .pink_product_contents .one_line > a {}
+#wrap main .color_products .pink_color #pink_product_wrap .pink_product_container .pink_product_contents .one_line > a img {}
+#wrap main .color_products .pink_color #pink_product_wrap .pink_product_container .pink_product_contents .two_line {}
+#wrap main .color_products .pink_color #pink_product_wrap .pink_product_container .pink_product_contents .two_line > p {}
+#wrap main .color_products .pink_color #pink_product_wrap .pink_product_container .pink_product_contents .two_line > p a {}
+#wrap main .color_products .pink_color #pink_product_wrap .pink_product_container .pink_product_contents .two_line > p:first-child {}
+#wrap main .color_products .pink_color #pink_product_wrap .pink_product_container .pink_product_contents .two_line > p:first-child a {}
+#wrap main .color_products .pink_color #pink_product_wrap .pink_product_container .pink_product_contents .two_line > p:last-child {}
+#wrap main .color_products .pink_color #pink_product_wrap .pink_product_container .pink_product_contents .two_line > p:last-child a {}
+#wrap main .color_products .pink_color #pink_product_wrap .pink_product_container .pink_product_contents .product_event {}
+#wrap main .color_products .pink_color #pink_product_wrap .pink_product_container .pink_product_contents .product_event em {}
+#wrap main .color_products .pink_color #pink_product_wrap .pink_product_container .pink_product_contents .product_event em:first-child {}
+#wrap main .color_products .pink_color #pink_product_wrap .pink_product_container .pink_product_contents .product_event em:last-child {}
+#wrap main .color_products .pink_color #pink_product_wrap li:nth-child(2) {}
+#wrap main .color_products .pink_color #pink_product_wrap li:nth-child(2) img {}
+#wrap main .friend_brands {}
+#wrap main .friend_brands a {}
+#wrap main .friend_brands a img {}
+#wrap main .friend_brands a em {}
+#wrap main .friend_brands a:last-child {}
+#wrap main .friend_brands a:last-child img {}
+#wrap main .friend_brands a:last-child em {}
+#wrap main #best50 {}
+#wrap main #best50 h2 {}
+#wrap main #best50 .best50_product_wrap {}
+#wrap main #best50 .best50_product_wrap li {}
+#wrap main #best50 .best50_product_wrap li .best50_product_img {}
+#wrap main #best50 .best50_product_wrap li .best50_product_img a {}
+#wrap main #best50 .best50_product_wrap li .best50_product_img a em {}
+#wrap main #best50 .best50_product_wrap li .best50_product_img a img {}
+#wrap main #best50 .best50_product_wrap li .best50_product_contents {}
+#wrap main #best50 .best50_product_wrap li .best50_product_contents .one_line {}
+#wrap main #best50 .best50_product_wrap li .best50_product_contents .one_line a:first-child {}
+#wrap main #best50 .best50_product_wrap li .best50_product_contents .one_line a:last-child {}
+#wrap main #best50 .best50_product_wrap li .best50_product_contents .one_line a:last-child img {}
+#wrap main #best50 .best50_product_wrap li .best50_product_contents .two_line {}
+#wrap main #best50 .best50_product_wrap li .best50_product_contents .two_line > p {}
+#wrap main #best50 .best50_product_wrap li .best50_product_contents .two_line > p a {}
+#wrap main #best50 .best50_product_wrap li .best50_product_contents .two_line > a {}
+#wrap main #best50 .best50_product_wrap li .best50_product_contents .two_line > a .sale {}
+#wrap main #best50 .best50_product_wrap li .best50_product_contents .two_line > a .sale .origin_price {}
+#wrap main #best50 .best50_product_wrap li .best50_product_contents .two_line > a .sale .price_sale_percent {}
+#wrap main #best50 .best50_product_wrap li .best50_product_contents .two_line > a .sale .price_sale_percent p {}
+#wrap main #best50 .best50_product_wrap li .best50_product_contents .two_line > a .sale .price_sale_percent p:first-child {}
+#wrap main #best50 .best50_product_wrap li .best50_product_contents .two_line > a .sale .price_sale_percent p:last-child {}
+#wrap main #best50 .best50_product_wrap li .best50_product_contents .product_event {}
+#wrap main #best50 .best50_product_wrap li .best50_product_contents .product_event em {}
+#wrap main #best50 .best50_product_wrap li .best50_product_contents .product_event em:first-child {}
+#wrap main #best50 .best50_product_wrap li .best50_product_contents .product_event em:last-child {}
+#wrap main #best50 > a {}
+#wrap main #art {}
+#wrap main #art .title_more {}
+#wrap main #art .title_more h2 {}
+#wrap main #art .title_more a {}
+#wrap main #art .title_more a em {}
+#wrap main #art .title_more a img {}
+#wrap main #art .art_container {}
+#wrap main #art .art_container .art_bg {}
+#wrap main #art .art_container .art_bg img {}
+#wrap main #art .art_container .art_bg p {}
+#wrap main #art .art_container .art_bg p span {}
+#wrap main #art .art_container .art_bg p em {}
+#wrap main #art .art_container .art_product_wrap {}
+#wrap main #art .art_container .art_product_wrap ul {}
+#wrap main #art .art_container .art_product_wrap ul li {}
+#wrap main #art .art_container .art_product_wrap ul li a {}
+#wrap main #art .art_container .art_product_wrap ul li a img {}
+#wrap main #art .art_container .art_product_wrap ul li a .product_contents {}
+#wrap main #art .art_container .art_product_wrap ul li a .product_contents .product_brand {}
+#wrap main #art .art_container .art_product_wrap ul li a .product_contents .product_title {}
+#wrap main #art .art_container .art_product_wrap ul li a .product_contents .product_price {}
+#wrap main #art .art_container .art_product_wrap ul li button {}
+#wrap main #art .art_container .art_product_wrap ul li button img {}
+#wrap main .event_bnr {}
+#wrap main .event_bnr a {}
+#wrap main .event_bnr a img {}
+#wrap main #now_love_brands {}
+#wrap main #now_love_brands h2 {}
+#wrap main #now_love_brands .love_brands {}
+#wrap main #now_love_brands .love_brands .swiper-wrapper {}
+#wrap main #now_love_brands .love_brands .swiper-wrapper .swiper-slide {}
+#wrap main #now_love_brands .love_brands .swiper-wrapper .swiper-slide a {}
+#wrap main #now_love_brands .love_brands .swiper-wrapper .swiper-slide a img {}
+#wrap main #now_love_brands .love_brands .swiper-wrapper .slide1 {}
+#wrap main #now_love_brands .love_brands .swiper-wrapper .slide1 a {}
+#wrap main #now_love_brands .love_brands .swiper-wrapper .slide1 a img {}
+#wrap main #now_love_brands .love_brands .swiper-wrapper .slide2 {}
+#wrap main #now_love_brands .love_brands .swiper-wrapper .slide2 a {}
+#wrap main #now_love_brands .love_brands .swiper-wrapper .slide2 a img {}
+#wrap main #now_love_brands .love_brands .swiper-wrapper .slide3 {}
+#wrap main #now_love_brands .love_brands .swiper-wrapper .slide3 a {}
+#wrap main #now_love_brands .love_brands .swiper-wrapper .slide3 a img {}
+#wrap main #now_love_brands .love_brands .swiper-wrapper .slide4 {}
+#wrap main #now_love_brands .love_brands .swiper-wrapper .slide4 a {}
+#wrap main #now_love_brands .love_brands .swiper-wrapper .slide4 a img {}
+#wrap main #now_love_brands .love_brands .swiper-wrapper .slide5 {}
+#wrap main #now_love_brands .love_brands .swiper-wrapper .slide5 a {}
+#wrap main #now_love_brands .love_brands .swiper-wrapper .slide5 a img {}
+#wrap main #now_love_brands .love_brands .swiper-wrapper .slide6 {}
+#wrap main #now_love_brands .love_brands .swiper-wrapper .slide6 a {}
+#wrap main #now_love_brands .love_brands .swiper-wrapper .slide6 a img {}
+#wrap main #now_love_brands .love_brands .swiper-wrapper .slide7 {}
+#wrap main #now_love_brands .love_brands .swiper-wrapper .slide7 a {}
+#wrap main #now_love_brands .love_brands .swiper-wrapper .slide7 a img {}
+#wrap main #week_best_product_wrap {}
+#wrap main #week_best_product_wrap .topic_more {}
+#wrap main #week_best_product_wrap .topic_more h2 {}
+#wrap main #week_best_product_wrap .topic_more h2 a {}
+#wrap main #week_best_product_wrap .topic_more h2 a em {}
+#wrap main #week_best_product_wrap .topic_more h2 a img {}
+#wrap main #week_best_product_wrap .week_best_product_container {}
+#wrap main #week_best_product_wrap .week_best_product_container li {}
+#wrap main #week_best_product_wrap .week_best_product_container li > a {}
+#wrap main #week_best_product_wrap .week_best_product_container li > a img {}
+#wrap main #week_best_product_wrap .week_best_product_container li .one_line {}
+#wrap main #week_best_product_wrap .week_best_product_container li .one_line a {}
+#wrap main #week_best_product_wrap .week_best_product_container li .one_line a:first-child {}
+#wrap main #week_best_product_wrap .week_best_product_container li .one_line a:last-child {}
+#wrap main #week_best_product_wrap .week_best_product_container li .one_line a:last-child img {}
+#wrap main #week_best_product_wrap .week_best_product_container li .one_line a:last-child em {}
+#wrap main #week_best_product_wrap .week_best_product_container li .two_line {}
+#wrap main #week_best_product_wrap .week_best_product_container li .two_line a {}
+#wrap main #week_best_product_wrap .week_best_product_container li .two_line a p {}
+#wrap main #week_best_product_wrap .week_best_product_container li .two_line a p:first-child {}
+#wrap main #week_best_product_wrap .week_best_product_container li .two_line a p:last-child {}
+#wrap main #review_check_item {}
+#wrap main #review_check_item .review_product_title {}
+#wrap main #review_check_item .review_product_title h2 {}
+#wrap main #review_check_item .review_product_title a {}
+#wrap main #review_check_item .ul {}
+#wrap main #review_check_item .ul li {}
+#wrap main #review_check_item .ul li > a {}
+#wrap main #review_check_item .ul li > a img {}
+#wrap main #review_check_item .ul li .product_contents {}
+#wrap main #review_check_item .ul li .product_contents .contents_top {}
+#wrap main #review_check_item .ul li .product_contents .contents_top .brand_title {}
+#wrap main #review_check_item .ul li .product_contents .contents_top .brand_title a {}
+#wrap main #review_check_item .ul li .product_contents .contents_top .brand_title a span {}
+#wrap main #review_check_item .ul li .product_contents .contents_top .brand_title a em {}
+#wrap main #review_check_item .ul li .product_contents .contents_top button {}
+#wrap main #review_check_item .ul li .product_contents .contents_top button img {}
+#wrap main #review_check_item .ul li .product_contents .contents_bottom {}
+#wrap main #review_check_item .ul li .product_contents .contents_bottom a {}
+#wrap main #review_check_item .ul li .product_contents .contents_bottom a > p {}
+#wrap main #review_check_item .ul li .product_contents .contents_bottom a .review_star_writer {}
+#wrap main #review_check_item .ul li .product_contents .contents_bottom a .review_star_writer .review_star_writer {}
+#wrap main #review_check_item .ul li .product_contents .contents_bottom a .review_star_writer .review_star_writer .review_star {}
+#wrap main #review_check_item .ul li .product_contents .contents_bottom a .review_star_writer .review_star_writer .review_star img {}
+#wrap main #review_check_item .ul li .product_contents .contents_bottom a .review_star_writer .review_star_writer .review_star img:last-child {}
+#wrap main #review_check_item .ul li .product_contents .contents_bottom a .review_star_writer p {}
+#wrap footer {}
+#wrap footer .basics_contents {}
+#wrap footer .basics_contents .email {}
+#wrap footer .basics_contents .email p {}
+#wrap footer .basics_contents .email p:first-child {}
+#wrap footer .basics_contents .email p:last-child {}
+#wrap footer .basics_contents .address {}
+#wrap footer .basics_contents .address p {}
+#wrap footer .basics_contents .address p:first-child {}
+#wrap footer .basics_contents .address p:last-child {}
+#wrap footer .basics_contents .business_number {}
+#wrap footer .basics_contents .business_number p {}
+#wrap footer .basics_contents .business_number p:first-child {}
+#wrap footer .basics_contents .business_number p:last-child {}
+#wrap footer .basics_contents .business_number p:last-child em {}
+#wrap footer .basics_contents .business_number p:last-child a {}
+#wrap footer .basics_contents .representative {}
+#wrap footer .basics_contents .representative p {}
+#wrap footer .basics_contents .representative p:first-child {}
+#wrap footer .basics_contents .representative p:last-child {}
+#wrap footer .basics_contents .communication_sale_number {}
+#wrap footer .basics_contents .communication_sale_number p {}
+#wrap footer .basics_contents .communication_sale_number p:first-child {}
+#wrap footer .basics_contents .communication_sale_number p:last-child {}
+#wrap footer .basics_contents .sponsor {}
+#wrap footer .basics_contents .sponsor p {}
+#wrap footer .basics_contents .sponsor p:first-child {}
+#wrap footer .basics_contents .sponsor p:last-child {}
+#wrap footer .communication {}
+#wrap footer .communication .communication_contents {}
+#wrap footer .communication .communication_contents p {}
+#wrap footer .communication .communication_contents p span {}
+#wrap footer .communication .communication_contents p em {}
+#wrap footer .communication .communication_contents p:nth-child(1) {}
+#wrap footer .communication .communication_contents p:nth-child(1) span {}
+#wrap footer .communication .communication_contents p:nth-child(1) em {}
+#wrap footer .communication .communication_contents p:nth-child(2) {}
+#wrap footer .communication .communication_contents p:nth-child(2) span {}
+#wrap footer .communication .communication_contents p:nth-child(2) em {}
+#wrap footer .communication .communication_contents p:nth-child(3) {}
+#wrap footer .communication .communication_contents p:nth-child(3) span {}
+#wrap footer .communication .communication_contents p:nth-child(3) em {}
+#wrap footer .communication > p {}
+#wrap footer .customer_service {}
+#wrap footer .customer_service a {}
+#wrap footer .customer_service a:nth-child(1) {}
+#wrap footer .customer_service a:nth-child(2) {}
+#wrap footer .customer_service a:nth-child(3) {}
+#wrap footer .customer_service a:nth-child(4) {}
