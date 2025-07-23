@@ -1,46 +1,64 @@
 #wrap {}
-#wrap header {}
-#wrap header #header_top {}
-#wrap header #header_top h1 {}
+#wrap header {width:1400px; margin:25px auto 0;}
+#wrap header #header_top {display:flex; justify-content:space-between;}
+#wrap header #header_top h1 {width:170px;}
 #wrap header #header_top h1 a {}
 #wrap header #header_top h1 a img {}
 #wrap header #header_top .header_top_right {}
-#wrap header #header_top .header_top_right a {}
+#wrap header #header_top .header_top_right a {margin-right:20px; font-size:0.813rem;}
 #wrap header #header_top .header_top_right a:first-child {}
-#wrap header #header_top .header_top_right a:last-child {}
-#wrap header #header_bottom {}
+#wrap header #header_top .header_top_right a:last-child {margin-right:0;}
+#wrap header #header_bottom {display:flex; justify-content:space-between; margin:20px 0;}
 #wrap header #header_bottom .header_bottom_left {}
 #wrap header #header_bottom .header_bottom_left nav {}
-#wrap header #header_bottom .header_bottom_left nav .gnb{}
-#wrap header #header_bottom .header_bottom_left nav .gnb button {}
-#wrap header #header_bottom .header_bottom_left nav .gnb button img {}
-#wrap header #header_bottom .header_bottom_left nav .gnb .lnb {}
-#wrap header #header_bottom .header_bottom_right {}
-#wrap header #header_bottom .header_bottom_right input {}
+#wrap header #header_bottom .header_bottom_left nav .gnb{display:flex; align-items:center; flex-flow:row nowrap; width:449px; height:30px; overflow:hidden; justify-content:start;}
+#wrap header #header_bottom .header_bottom_left nav .gnb button {margin-right:30px; display:block;}
+#wrap header #header_bottom .header_bottom_left nav .gnb button img {width:30px;}
+#wrap header #header_bottom .header_bottom_left nav .gnb > a {font-weight:500; margin-right:30px;}
+#wrap header #header_bottom .header_bottom_left nav .gnb > a:last-child {margin-right:0px;}
+#wrap header #header_bottom .header_bottom_left nav .gnb .lnb {display:none;}
+#wrap header #header_bottom .header_bottom_left nav .gnb .lnb a {}
+#wrap header #header_bottom .header_bottom_left nav .gnb .lnb a:last-child {}
+#wrap header #header_bottom .header_bottom_right {border:1px solid #000; width:260px; padding:10px 15px; display:flex;}
+#wrap header #header_bottom .header_bottom_right input {height:20px;}
+#wrap header #header_bottom .header_bottom_right input::placeholder {font-size:0.875rem;}
 #wrap header #header_bottom .header_bottom_right a {}
 #wrap header #header_bottom .header_bottom_right a img {}
 #wrap main {}
-#wrap main .main_bn {}
-#wrap main .main_bn a {}
-#wrap main .main_bn a:first-child {}
+#wrap main .main_bn {
+    display:grid;
+    grid-template-areas:
+    'bn1 bn2'
+    'bn1 bn3';
+    width:1400px;
+    margin:0 auto 80px;
+    gap:10px;
+}
+#wrap main .main_bn a {position:relative; top:0; left:0;}
+#wrap main .main_bn a p {position:absolute; display:flex; flex-flow:column nowrap; text-align:right;}
+#wrap main .main_bn a p em {font-size:1.5rem; font-weight:600; margin-bottom:10px;}
+#wrap main .main_bn a p span {font-size:1.125rem; font-weight:600;}
+#wrap main .main_bn a:first-child {grid-area:bn1;}
 #wrap main .main_bn a:first-child img {}
-#wrap main .main_bn a:first-child p {}
-#wrap main .main_bn a:first-child p em {}
-#wrap main .main_bn a:first-child p span {}
-#wrap main .main_bn a:last-child {}
+#wrap main .main_bn a:first-child p {top:36px; right:38px;}
+#wrap main .main_bn a:first-child p em {color:#fff;}
+#wrap main .main_bn a:first-child p span {color:#fff;}
+#wrap main .main_bn a:nth-child(2) {grid-area:bn2;}
+#wrap main .main_bn a:nth-child(2) img {}
+#wrap main .main_bn a:nth-child(2) p {top:36px; right:31px;}
+#wrap main .main_bn a:nth-child(2) p em {}
+#wrap main .main_bn a:nth-child(2) p span {}
+#wrap main .main_bn a:last-child {grid-area:bn3;}
 #wrap main .main_bn a:last-child img {}
-#wrap main .main_bn a:last-child p {}
+#wrap main .main_bn a:last-child p {top:35px; right:44px;}
 #wrap main .main_bn a:last-child p em {}
 #wrap main .main_bn a:last-child p span {}
-#wrap main .main_bn a img {}
-#wrap main .main_bn a p {}
-#wrap main .main_bn a p em {}
-#wrap main .main_bn a p span {}
-#wrap main .color_products {}
+#wrap main .color_products {width:1400px; margin:0 auto;}
 #wrap main .color_products .red_color {}
-#wrap main .color_products .red_color > em {}
-#wrap main .color_products .red_color > button {}
-#wrap main .color_products .red_color > button img {}
+#wrap main .color_products .red_color .color_title {}
+#wrap main .color_products .red_color .color_title em {}
+#wrap main .color_products .red_color .color_title button {}
+#wrap main .color_products .red_color .color_title button img {}
 #wrap main .color_products .red_color #red_product_wrap {}
 #wrap main .color_products .red_color #red_product_wrap .red_product_container {}
 #wrap main .color_products .red_color #red_product_wrap .red_product_container p {}
@@ -68,9 +86,10 @@
 #wrap main .color_products .red_color #red_product_wrap li:nth-child(2) {}
 #wrap main .color_products .red_color #red_product_wrap li:nth-child(2) img {}
 #wrap main .color_products .green_color {}
-#wrap main .color_products .green_color > em {}
-#wrap main .color_products .green_color > button {}
-#wrap main .color_products .green_color > button img {}
+#wrap main .color_products .green_color .color_title {}
+#wrap main .color_products .green_color .color_title em {}
+#wrap main .color_products .green_color .color_title button {}
+#wrap main .color_products .green_color .color_title button img {}
 #wrap main .color_products .green_color #green_product_wrap {}
 #wrap main .color_products .green_color #green_product_wrap .green_product_container {}
 #wrap main .color_products .green_color #green_product_wrap .green_product_container p {}
@@ -98,9 +117,10 @@
 #wrap main .color_products .green_color #green_product_wrap li:nth-child(2) {}
 #wrap main .color_products .green_color #green_product_wrap li:nth-child(2) img {}
 #wrap main .color_products .pink_color {}
-#wrap main .color_products .pink_color > em {}
-#wrap main .color_products .pink_color > button {}
-#wrap main .color_products .pink_color > button img {}
+#wrap main .color_products .pink_color .color_title {}
+#wrap main .color_products .pink_color .color_title em {}
+#wrap main .color_products .pink_color .color_title button {}
+#wrap main .color_products .pink_color .color_title button img {}
 #wrap main .color_products .pink_color #pink_product_wrap {}
 #wrap main .color_products .pink_color #pink_product_wrap .pink_product_container {}
 #wrap main .color_products .pink_color #pink_product_wrap .pink_product_container p {}
