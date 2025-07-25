@@ -53,44 +53,73 @@
 #wrap main .main_bn a:last-child p {top:35px; right:44px;}
 #wrap main .main_bn a:last-child p em {}
 #wrap main .main_bn a:last-child p span {}
-#wrap main .color_products {width:1400px; margin:0 auto;}
+#wrap main .color_products {width:1400px; margin:0 auto 80px;}
 #wrap main .color_products .red_color {}
-#wrap main .color_products .red_color .color_title {background-color:#f00; padding:15px 30px; border-radius:20px 20px 0 0; display:flex; justify-content:space-between; align-items:center;}
-#wrap main .color_products .red_color .color_title em {font-size:1.125rem; color:#fff; font-weight:600;}
+#wrap main .color_products div .color_title {padding:15px 30px; border-radius:20px 20px 0 0; display:flex; justify-content:space-between; align-items:center;}
+#wrap main .color_products div .color_title em {font-size:1.125rem; color:#fff; font-weight:600;}
+#wrap main .color_products div ul {display:flex; flex-flow:row nowrap; align-items:center; padding:30px 50px; border:1px solid #ccc; border-top:none; justify-content:space-between;}
+#wrap main .color_products div ul li {display:flex; align-items:center;}
+#wrap main .color_products div ul li::after {
+    content:''; width:1px; height:300px; background-color:#ddd; display:inline-block;
+}
+#wrap main .color_products div ul li:last-child::after {display:none;}
+#wrap main .color_products div ul li > div {margin-right:18px; width:230px;}
+#wrap main .color_products div ul li:last-child > div {margin-right:0px;}
+#wrap main .color_products div ul li > div p a img {width:230px;}
+#wrap main .color_products div ul li > div > div {padding:10px 10px;}
+#wrap main .color_products div ul li > div > div > div:nth-child(1) {display:flex; justify-content:space-between; align-items:center;}
+#wrap main .color_products div ul li > div > div > div:nth-child(1) div a:nth-of-type(1){font-size:0.875rem;}
+#wrap main .color_products div ul li > div > div > div:nth-child(1) div img {margin:0 5px;}
+#wrap main .color_products div ul li > div > div > div:nth-child(1) div a:nth-of-type(2){font-size:0.875rem;}
+#wrap main .color_products div ul li > div > div > div:nth-child(1) > a img {width:20px;}
+#wrap main .color_products div ul li > div > div > div:nth-child(2) {margin:14px 0;}
+#wrap main .color_products div ul li > div > div > div:nth-child(2) > p:first-child {margin-bottom:24px; width:100%; line-height:1.2;}
+#wrap main .color_products div ul li > div > div > div:nth-child(2) > p:first-child a {font-weight:500;}
+#wrap main .color_products div ul li > div > div > div:nth-child(2) > p:last-child a {font-size:1.125rem; font-weight:600;}
+#wrap main .color_products div ul li > div > div > div:nth-child(3) {display:flex; justify-content:space-between;}
+#wrap main .color_products div ul li > div > div > div:nth-child(3) em {display:block; width:max-content;}
+#wrap main .color_products div ul li > div > div > div:nth-child(3) em:first-child {background-color:#eee; padding:3px 4px; border-radius:5px; font-size:0.875rem; color:#777;}
+#wrap main .color_products div ul li > div > div > div:nth-child(3) em:last-child {padding:3px 4px; border:1px solid #333; border-radius:5px; font-size:0.75rem; color:#333;}
+#wrap main .color_products .red_color .color_title {background-color:#f00;}
+#wrap main .color_products .red_color .color_title em {}
 #wrap main .color_products .red_color .color_title button {}
 #wrap main .color_products .red_color .color_title button img {}
-#wrap main .color_products .red_color #red_product_wrap {display:flex; flex-flow:row nowrap; align-items:center; padding:30px 50px; border:1px solid #ccc; border-top:none; justify-content:space-between;}
+#wrap main .color_products .red_color #red_product_wrap {}
 #wrap main .color_products .red_color #red_product_wrap .red_product_container {}
-#wrap main .color_products .red_color #red_product_wrap .red_product_container p {}
-#wrap main .color_products .red_color #red_product_wrap .red_product_container p a {}
-#wrap main .color_products .red_color #red_product_wrap .red_product_container p a img {width:230px;}
-#wrap main .color_products .red_color #red_product_wrap .red_product_container .red_product_contents {padding:10px 10px;}
-#wrap main .color_products .red_color #red_product_wrap .red_product_container .red_product_contents .one_line {display:flex; justify-content:space-between; align-items:center;}
-#wrap main .color_products .red_color #red_product_wrap .red_product_container .red_product_contents .one_line .platform_brand {}
-#wrap main .color_products .red_color #red_product_wrap .red_product_container .red_product_contents .one_line .platform_brand .platform {font-size:0.875rem;}
-#wrap main .color_products .red_color #red_product_wrap .red_product_container .red_product_contents .one_line .platform_brand img {margin:0 5px;}
-#wrap main .color_products .red_color #red_product_wrap .red_product_container .red_product_contents .one_line .platform_brand .brand {font-size:0.875rem;}
-#wrap main .color_products .red_color #red_product_wrap .red_product_container .red_product_contents .one_line > a {}
-#wrap main .color_products .red_color #red_product_wrap .red_product_container .red_product_contents .one_line > a img {width:20px;}
-#wrap main .color_products .red_color #red_product_wrap .red_product_container .red_product_contents .two_line {margin:14px 0;}
-#wrap main .color_products .red_color #red_product_wrap .red_product_container .red_product_contents .two_line > p {}
-#wrap main .color_products .red_color #red_product_wrap .red_product_container .red_product_contents .two_line > p a {}
-#wrap main .color_products .red_color #red_product_wrap .red_product_container .red_product_contents .two_line > p:first-child {margin-bottom:24px;}
-#wrap main .color_products .red_color #red_product_wrap .red_product_container .red_product_contents .two_line > p:first-child a {font-weight:500;}
-#wrap main .color_products .red_color #red_product_wrap .red_product_container .red_product_contents .two_line > p:last-child {}
-#wrap main .color_products .red_color #red_product_wrap .red_product_container .red_product_contents .two_line > p:last-child a {font-size:1.125rem; font-weight:600;}
-#wrap main .color_products .red_color #red_product_wrap .red_product_container .red_product_contents .product_event {display:flex; justify-content:space-between;}
-#wrap main .color_products .red_color #red_product_wrap .red_product_container .red_product_contents .product_event em {display:block; width:max-content;}
-#wrap main .color_products .red_color #red_product_wrap .red_product_container .red_product_contents .product_event em:first-child {background-color:#eee; padding:3px 4px; border-radius:5px; font-size:0.875rem; color:#777;}
-#wrap main .color_products .red_color #red_product_wrap .red_product_container .red_product_contents .product_event em:last-child {padding:3px 4px; border:1px solid #333; border-radius:5px; font-size:0.75rem; color:#333;}
-#wrap main .color_products .red_color #red_product_wrap li:nth-child(2) {}
-#wrap main .color_products .red_color #red_product_wrap li:nth-child(2) img {}
+#wrap main .color_products .red_color #red_product_wrap .red_product_container::after {}
+#wrap main .color_products .red_color #red_product_wrap .red_product_container:last-child::after {}
+#wrap main .color_products .red_color #red_product_wrap .red_product_container .r_p_c {}
+#wrap main .color_products .red_color #red_product_wrap .red_product_container:last-child .r_p_c {}
+#wrap main .color_products .red_color #red_product_wrap .red_product_container .r_p_c p {}
+#wrap main .color_products .red_color #red_product_wrap .red_product_container .r_p_c p a {}
+#wrap main .color_products .red_color #red_product_wrap .red_product_container .r_p_c p a img {}
+#wrap main .color_products .red_color #red_product_wrap .red_product_container .r_p_c .red_product_contents {}
+#wrap main .color_products .red_color #red_product_wrap .red_product_container .r_p_c .red_product_contents .one_line {}
+#wrap main .color_products .red_color #red_product_wrap .red_product_container .r_p_c .red_product_contents .one_line .platform_brand {}
+#wrap main .color_products .red_color #red_product_wrap .red_product_container .r_p_c .red_product_contents .one_line .platform_brand .platform {}
+#wrap main .color_products .red_color #red_product_wrap .red_product_container .r_p_c .red_product_contents .one_line .platform_brand img {}
+#wrap main .color_products .red_color #red_product_wrap .red_product_container .r_p_c .red_product_contents .one_line .platform_brand .brand {}
+#wrap main .color_products .red_color #red_product_wrap .red_product_container .r_p_c .red_product_contents .one_line > a {}
+#wrap main .color_products .red_color #red_product_wrap .red_product_container .r_p_c .red_product_contents .one_line > a img {}
+#wrap main .color_products .red_color #red_product_wrap .red_product_container .r_p_c .red_product_contents .two_line {}
+#wrap main .color_products .red_color #red_product_wrap .red_product_container .r_p_c .red_product_contents .two_line > p {}
+#wrap main .color_products .red_color #red_product_wrap .red_product_container .r_p_c .red_product_contents .two_line > p a {}
+#wrap main .color_products .red_color #red_product_wrap .red_product_container .r_p_c .red_product_contents .two_line > p:first-child {}
+#wrap main .color_products .red_color #red_product_wrap .red_product_container .r_p_c .red_product_contents .two_line > p:first-child a {}
+#wrap main .color_products .red_color #red_product_wrap .red_product_container .r_p_c .red_product_contents .two_line > p:last-child {}
+#wrap main .color_products .red_color #red_product_wrap .red_product_container .r_p_c .red_product_contents .two_line > p:last-child a {}
+#wrap main .color_products .red_color #red_product_wrap .red_product_container .r_p_c .red_product_contents .product_event {}
+#wrap main .color_products .red_color #red_product_wrap .red_product_container .r_p_c .red_product_contents .product_event em {}
+#wrap main .color_products .red_color #red_product_wrap .red_product_container .r_p_c .red_product_contents .product_event em:first-child {}
+#wrap main .color_products .red_color #red_product_wrap .red_product_container .r_p_c .red_product_contents .product_event em:last-child {}
+/* #wrap main .color_products .red_color #red_product_wrap li:nth-child(2) {}
+#wrap main .color_products .red_color #red_product_wrap li:nth-child(2) img {} */
 #wrap main .color_products .green_color {}
-#wrap main .color_products .green_color .color_title {}
+#wrap main .color_products .green_color .color_title {background-color:#018c15; border-radius:0;}
 #wrap main .color_products .green_color .color_title em {}
 #wrap main .color_products .green_color .color_title button {}
 #wrap main .color_products .green_color .color_title button img {}
-#wrap main .color_products .green_color #green_product_wrap {display:none;}
+#wrap main .color_products .green_color #green_product_wrap {/* display:none; */}
 #wrap main .color_products .green_color #green_product_wrap .green_product_container {}
 #wrap main .color_products .green_color #green_product_wrap .green_product_container p {}
 #wrap main .color_products .green_color #green_product_wrap .green_product_container p a {}
@@ -114,14 +143,14 @@
 #wrap main .color_products .green_color #green_product_wrap .green_product_container .green_product_contents .product_event em {}
 #wrap main .color_products .green_color #green_product_wrap .green_product_container .green_product_contents .product_event em:first-child {}
 #wrap main .color_products .green_color #green_product_wrap .green_product_container .green_product_contents .product_event em:last-child {}
-#wrap main .color_products .green_color #green_product_wrap li:nth-child(2) {}
-#wrap main .color_products .green_color #green_product_wrap li:nth-child(2) img {}
+/* #wrap main .color_products .green_color #green_product_wrap li:nth-child(2) {}
+#wrap main .color_products .green_color #green_product_wrap li:nth-child(2) img {} */
 #wrap main .color_products .pink_color {}
-#wrap main .color_products .pink_color .color_title {}
+#wrap main .color_products .pink_color .color_title {background-color:#fb1a78; border-radius:0 0 20px 20px;}
 #wrap main .color_products .pink_color .color_title em {}
 #wrap main .color_products .pink_color .color_title button {}
 #wrap main .color_products .pink_color .color_title button img {}
-#wrap main .color_products .pink_color #pink_product_wrap {display:none;}
+#wrap main .color_products .pink_color #pink_product_wrap {/* display:none; */}
 #wrap main .color_products .pink_color #pink_product_wrap .pink_product_container {}
 #wrap main .color_products .pink_color #pink_product_wrap .pink_product_container p {}
 #wrap main .color_products .pink_color #pink_product_wrap .pink_product_container p a {}
@@ -145,8 +174,8 @@
 #wrap main .color_products .pink_color #pink_product_wrap .pink_product_container .pink_product_contents .product_event em {}
 #wrap main .color_products .pink_color #pink_product_wrap .pink_product_container .pink_product_contents .product_event em:first-child {}
 #wrap main .color_products .pink_color #pink_product_wrap .pink_product_container .pink_product_contents .product_event em:last-child {}
-#wrap main .color_products .pink_color #pink_product_wrap li:nth-child(2) {}
-#wrap main .color_products .pink_color #pink_product_wrap li:nth-child(2) img {}
+/* #wrap main .color_products .pink_color #pink_product_wrap li:nth-child(2) {}
+#wrap main .color_products .pink_color #pink_product_wrap li:nth-child(2) img {} */
 #wrap main .friend_brands {}
 #wrap main .friend_brands a {}
 #wrap main .friend_brands a img {}
