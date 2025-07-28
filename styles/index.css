@@ -55,9 +55,9 @@
 #wrap main .main_bn a:last-child p span {}
 #wrap main .color_products {width:1400px; margin:0 auto 80px;}
 #wrap main .color_products .red_color {}
-#wrap main .color_products div .color_title {padding:15px 30px; border-radius:20px 20px 0 0; display:flex; justify-content:space-between; align-items:center;}
+#wrap main .color_products div .color_title {padding:15px 30px;  display:flex; justify-content:space-between; align-items:center;}
 #wrap main .color_products div .color_title em {font-size:1.125rem; color:#fff; font-weight:600;}
-#wrap main .color_products div ul {display:flex; flex-flow:row nowrap; align-items:center; padding:30px 50px; border:1px solid #ccc; border-top:none; justify-content:space-between;}
+#wrap main .color_products div ul {display:flex; flex-flow:row nowrap; align-items:center; padding:30px 50px; border:1px solid #ccc; border-top:none; justify-content:space-between; transition:opacity 0.2s linear, max-height 0.2s linear; max-height:500px; overflow:hidden;}
 #wrap main .color_products div ul li {display:flex; align-items:center;}
 #wrap main .color_products div ul li::after {
     content:''; width:1px; height:300px; background-color:#ddd; display:inline-block;
@@ -80,7 +80,8 @@
 #wrap main .color_products div ul li > div > div > div:nth-child(3) em {display:block; width:max-content;}
 #wrap main .color_products div ul li > div > div > div:nth-child(3) em:first-child {background-color:#eee; padding:3px 4px; border-radius:5px; font-size:0.875rem; color:#777;}
 #wrap main .color_products div ul li > div > div > div:nth-child(3) em:last-child {padding:3px 4px; border:1px solid #333; border-radius:5px; font-size:0.75rem; color:#333;}
-#wrap main .color_products .red_color .color_title {background-color:#f00;}
+#wrap main .color_products .color_title button {}
+#wrap main .color_products .red_color .color_title {background-color:#f00; border-radius:20px 20px 0 0;}
 #wrap main .color_products .red_color .color_title em {}
 #wrap main .color_products .red_color .color_title button {}
 #wrap main .color_products .red_color .color_title button img {}
@@ -112,14 +113,12 @@
 #wrap main .color_products .red_color #red_product_wrap .red_product_container .r_p_c .red_product_contents .product_event em {}
 #wrap main .color_products .red_color #red_product_wrap .red_product_container .r_p_c .red_product_contents .product_event em:first-child {}
 #wrap main .color_products .red_color #red_product_wrap .red_product_container .r_p_c .red_product_contents .product_event em:last-child {}
-/* #wrap main .color_products .red_color #red_product_wrap li:nth-child(2) {}
-#wrap main .color_products .red_color #red_product_wrap li:nth-child(2) img {} */
 #wrap main .color_products .green_color {}
 #wrap main .color_products .green_color .color_title {background-color:#018c15; border-radius:0;}
 #wrap main .color_products .green_color .color_title em {}
 #wrap main .color_products .green_color .color_title button {}
 #wrap main .color_products .green_color .color_title button img {}
-#wrap main .color_products .green_color #green_product_wrap {/* display:none; */}
+#wrap main .color_products .green_color #green_product_wrap {}
 #wrap main .color_products .green_color #green_product_wrap .green_product_container {}
 #wrap main .color_products .green_color #green_product_wrap .green_product_container p {}
 #wrap main .color_products .green_color #green_product_wrap .green_product_container p a {}
@@ -143,14 +142,12 @@
 #wrap main .color_products .green_color #green_product_wrap .green_product_container .green_product_contents .product_event em {}
 #wrap main .color_products .green_color #green_product_wrap .green_product_container .green_product_contents .product_event em:first-child {}
 #wrap main .color_products .green_color #green_product_wrap .green_product_container .green_product_contents .product_event em:last-child {}
-/* #wrap main .color_products .green_color #green_product_wrap li:nth-child(2) {}
-#wrap main .color_products .green_color #green_product_wrap li:nth-child(2) img {} */
 #wrap main .color_products .pink_color {}
-#wrap main .color_products .pink_color .color_title {background-color:#fb1a78; border-radius:0 0 20px 20px;}
+#wrap main .color_products .pink_color .color_title {background-color:#fb1a78;}
 #wrap main .color_products .pink_color .color_title em {}
 #wrap main .color_products .pink_color .color_title button {}
 #wrap main .color_products .pink_color .color_title button img {}
-#wrap main .color_products .pink_color #pink_product_wrap {/* display:none; */}
+#wrap main .color_products .pink_color #pink_product_wrap {}
 #wrap main .color_products .pink_color #pink_product_wrap .pink_product_container {}
 #wrap main .color_products .pink_color #pink_product_wrap .pink_product_container p {}
 #wrap main .color_products .pink_color #pink_product_wrap .pink_product_container p a {}
@@ -174,72 +171,74 @@
 #wrap main .color_products .pink_color #pink_product_wrap .pink_product_container .pink_product_contents .product_event em {}
 #wrap main .color_products .pink_color #pink_product_wrap .pink_product_container .pink_product_contents .product_event em:first-child {}
 #wrap main .color_products .pink_color #pink_product_wrap .pink_product_container .pink_product_contents .product_event em:last-child {}
-/* #wrap main .color_products .pink_color #pink_product_wrap li:nth-child(2) {}
-#wrap main .color_products .pink_color #pink_product_wrap li:nth-child(2) img {} */
-#wrap main .friend_brands {}
-#wrap main .friend_brands a {}
-#wrap main .friend_brands a img {}
+#wrap main .friend_brands {max-width:1400px; display:flex; justify-content:space-between; margin:0 auto 80px;}
+#wrap main .friend_brands a {display:flex; flex-flow:column nowrap; align-items:center;}
+#wrap main .friend_brands a img {width:100px; margin-bottom:25px;}
 #wrap main .friend_brands a em {}
 #wrap main .friend_brands a:last-child {}
 #wrap main .friend_brands a:last-child img {}
 #wrap main .friend_brands a:last-child em {}
-#wrap main #best50 {}
-#wrap main #best50 h2 {}
-#wrap main #best50 .best50_product_wrap {}
-#wrap main #best50 .best50_product_wrap li {}
-#wrap main #best50 .best50_product_wrap li .best50_product_img {}
-#wrap main #best50 .best50_product_wrap li .best50_product_img a {}
-#wrap main #best50 .best50_product_wrap li .best50_product_img a em {}
+#wrap main #best50 {margin:0 auto 80px; padding:30px 0; background-color:#f5f5f5;}
+#wrap main #best50 h2 {font-size:1.5rem; font-weight:600; text-align:left; margin:0 auto 50px; max-width:1400px;}
+#wrap main #best50 .best50_product_wrap {max-width:1400px; margin:0 auto 30px; display:flex; justify-content:space-between;}
+#wrap main #best50 .best50_product_wrap li {border:1px solid #dcdcdc; width:250px;}
+#wrap main #best50 .best50_product_wrap li .best50_product_img {position:relative;}
+#wrap main #best50 .best50_product_wrap li .best50_product_img a {height:350px; width:max-content; display:inline-block;}
+#wrap main #best50 .best50_product_wrap li .best50_product_img a em {position:absolute; top:0px; left:0px; font-size:1.25rem; padding:7px 12px;}
 #wrap main #best50 .best50_product_wrap li .best50_product_img a img {}
-#wrap main #best50 .best50_product_wrap li .best50_product_contents {}
-#wrap main #best50 .best50_product_wrap li .best50_product_contents .one_line {}
-#wrap main #best50 .best50_product_wrap li .best50_product_contents .one_line a:first-child {}
+#wrap main #best50 .best50_product_wrap li .best50_product_contents {display:flex; flex-flow:column nowrap; padding:15px;}
+#wrap main #best50 .best50_product_wrap li .best50_product_contents .one_line {display:flex; justify-content:space-between; margin-bottom:20px;}
+#wrap main #best50 .best50_product_wrap li .best50_product_contents .one_line a:first-child {font-size:0.875rem;}
 #wrap main #best50 .best50_product_wrap li .best50_product_contents .one_line a:last-child {}
-#wrap main #best50 .best50_product_wrap li .best50_product_contents .one_line a:last-child img {}
-#wrap main #best50 .best50_product_wrap li .best50_product_contents .two_line {}
-#wrap main #best50 .best50_product_wrap li .best50_product_contents .two_line > p {}
-#wrap main #best50 .best50_product_wrap li .best50_product_contents .two_line > p a {}
+#wrap main #best50 .best50_product_wrap li .best50_product_contents .one_line a:last-child img {width:12px; height:12px;}
+#wrap main #best50 .best50_product_wrap li .best50_product_contents .two_line {margin-bottom:20px; display:flex; flex-flow:column nowrap; justify-content:space-between; height:69px;}
+#wrap main #best50 .best50_product_wrap li .best50_product_contents .two_line > p {margin-bottom:10px;}
+#wrap main #best50 .best50_product_wrap li .best50_product_contents .two_line > p a {font-weight:600;}
 #wrap main #best50 .best50_product_wrap li .best50_product_contents .two_line > a {}
 #wrap main #best50 .best50_product_wrap li .best50_product_contents .two_line > a .sale {}
-#wrap main #best50 .best50_product_wrap li .best50_product_contents .two_line > a .sale .origin_price {}
-#wrap main #best50 .best50_product_wrap li .best50_product_contents .two_line > a .sale .price_sale_percent {}
+#wrap main #best50 .best50_product_wrap li .best50_product_contents .two_line > a .sale .origin_price {text-decoration:line-through; font-size:0.875rem; font-weight:600;}
+#wrap main #best50 .best50_product_wrap li .best50_product_contents .two_line > a .sale .price_sale_percent {display:flex; justify-content:space-between;}
 #wrap main #best50 .best50_product_wrap li .best50_product_contents .two_line > a .sale .price_sale_percent p {}
-#wrap main #best50 .best50_product_wrap li .best50_product_contents .two_line > a .sale .price_sale_percent p:first-child {}
-#wrap main #best50 .best50_product_wrap li .best50_product_contents .two_line > a .sale .price_sale_percent p:last-child {}
-#wrap main #best50 .best50_product_wrap li .best50_product_contents .product_event {}
-#wrap main #best50 .best50_product_wrap li .best50_product_contents .product_event em {}
-#wrap main #best50 .best50_product_wrap li .best50_product_contents .product_event em:first-child {}
-#wrap main #best50 .best50_product_wrap li .best50_product_contents .product_event em:last-child {}
-#wrap main #best50 > a {}
-#wrap main #art {}
-#wrap main #art .title_more {}
-#wrap main #art .title_more h2 {}
+#wrap main #best50 .best50_product_wrap li .best50_product_contents .two_line > a .sale .price_sale_percent p:first-child {font-size:1.125rem; font-weight:600;}
+#wrap main #best50 .best50_product_wrap li .best50_product_contents .two_line > a .sale .price_sale_percent p:last-child {font-size:1.125rem; font-weight:600;}
+#wrap main #best50 .best50_product_wrap li .best50_product_contents .product_event {display:flex; justify-content:space-between;}
+#wrap main #best50 .best50_product_wrap li .best50_product_contents .product_event em {font-size:0.875rem;}
+#wrap main #best50 .best50_product_wrap li .best50_product_contents .product_event em:first-child {background-color:#fff; padding:2px 3px; border-radius:5px;}
+#wrap main #best50 .best50_product_wrap li .best50_product_contents .product_event em:last-child {padding:3px 4px; border:1px solid #000; border-radius:5px; color:#222;}
+#wrap main #best50 > a {padding:10px 20px; border:1px solid #111; display:block; width:93px; font-size:0.875rem; font-weight:500; margin:0 auto;}
+#wrap main #art {max-width:max-content; margin:0 auto 80px;}
+#wrap main #art .title_more {display:flex; justify-content:space-between; align-items:end; margin-bottom:50px;}
+#wrap main #art .title_more h2 {font-size:1.5rem; font-weight:600;}
 #wrap main #art .title_more a {}
-#wrap main #art .title_more a em {}
+#wrap main #art .title_more a em {font-size:0.875rem; font-weight:500;}
 #wrap main #art .title_more a img {}
-#wrap main #art .art_container {}
-#wrap main #art .art_container .art_bg {}
+#wrap main #art .art_container {display:flex; justify-content:center;}
+#wrap main #art .art_container .art_bg {position:relative; margin-right:25px;}
 #wrap main #art .art_container .art_bg img {}
-#wrap main #art .art_container .art_bg p {}
-#wrap main #art .art_container .art_bg p span {}
-#wrap main #art .art_container .art_bg p em {}
+#wrap main #art .art_container .art_bg p {position:absolute; top:20px; right:20px;}
+#wrap main #art .art_container .art_bg p span {font-size:1.5rem; font-weight:600; margin-right:3px;}
+#wrap main #art .art_container .art_bg p em {font-size:1.75rem; font-weight:700;}
 #wrap main #art .art_container .art_product_wrap {}
-#wrap main #art .art_container .art_product_wrap ul {}
-#wrap main #art .art_container .art_product_wrap ul li {}
-#wrap main #art .art_container .art_product_wrap ul li a {}
-#wrap main #art .art_container .art_product_wrap ul li a img {}
+#wrap main #art .art_container .art_product_wrap ul {display:flex; flex-flow:column nowrap;}
+#wrap main #art .art_container .art_product_wrap ul li {position:relative; width:340px;}
+#wrap main #art .art_container .art_product_wrap ul li::after {
+    content:''; display:block; width:340px; height:1px; background-color:#ddd; margin:30px 0;
+}
+#wrap main #art .art_container .art_product_wrap ul li:last-child::after {display:none;}
+#wrap main #art .art_container .art_product_wrap ul li a {display:flex; flex-flow:row nowrap; align-items:center;}
+#wrap main #art .art_container .art_product_wrap ul li a > img {margin-right:10px;}
 #wrap main #art .art_container .art_product_wrap ul li a .product_contents {}
-#wrap main #art .art_container .art_product_wrap ul li a .product_contents .product_brand {}
-#wrap main #art .art_container .art_product_wrap ul li a .product_contents .product_title {}
-#wrap main #art .art_container .art_product_wrap ul li a .product_contents .product_price {}
-#wrap main #art .art_container .art_product_wrap ul li button {}
+#wrap main #art .art_container .art_product_wrap ul li a .product_contents .product_brand {font-size:0.875rem; font-weight:500;}
+#wrap main #art .art_container .art_product_wrap ul li a .product_contents .product_title {font-weight:500; margin:10px 0;}
+#wrap main #art .art_container .art_product_wrap ul li a .product_contents .product_price {font-weight:500; font-size:1.125rem;}
+#wrap main #art .art_container .art_product_wrap ul li button {position:absolute; top:10px; right:10px;}
 #wrap main #art .art_container .art_product_wrap ul li button img {}
-#wrap main .event_bnr {}
+#wrap main .event_bnr {margin-bottom:80px;}
 #wrap main .event_bnr a {}
 #wrap main .event_bnr a img {}
-#wrap main #now_love_brands {}
-#wrap main #now_love_brands h2 {}
-#wrap main #now_love_brands .love_brands {}
+#wrap main #now_love_brands {max-width:1400px; margin:0 auto 80px;}
+#wrap main #now_love_brands h2 {font-size:1.5rem; font-weight:600; margin-bottom:50px;}
+#wrap main #now_love_brands .love_brands {width:1400px;}
 #wrap main #now_love_brands .love_brands .swiper-wrapper {}
 #wrap main #now_love_brands .love_brands .swiper-wrapper .swiper-slide {}
 #wrap main #now_love_brands .love_brands .swiper-wrapper .swiper-slide a {}
@@ -265,52 +264,60 @@
 #wrap main #now_love_brands .love_brands .swiper-wrapper .slide7 {}
 #wrap main #now_love_brands .love_brands .swiper-wrapper .slide7 a {}
 #wrap main #now_love_brands .love_brands .swiper-wrapper .slide7 a img {}
-#wrap main #week_best_product_wrap {}
-#wrap main #week_best_product_wrap .topic_more {}
-#wrap main #week_best_product_wrap .topic_more h2 {}
-#wrap main #week_best_product_wrap .topic_more h2 a {}
-#wrap main #week_best_product_wrap .topic_more h2 a em {}
-#wrap main #week_best_product_wrap .topic_more h2 a img {}
-#wrap main #week_best_product_wrap .week_best_product_container {}
-#wrap main #week_best_product_wrap .week_best_product_container li {}
-#wrap main #week_best_product_wrap .week_best_product_container li > a {}
-#wrap main #week_best_product_wrap .week_best_product_container li > a img {}
-#wrap main #week_best_product_wrap .week_best_product_container li .one_line {}
-#wrap main #week_best_product_wrap .week_best_product_container li .one_line a {}
-#wrap main #week_best_product_wrap .week_best_product_container li .one_line a:first-child {}
-#wrap main #week_best_product_wrap .week_best_product_container li .one_line a:last-child {}
-#wrap main #week_best_product_wrap .week_best_product_container li .one_line a:last-child img {}
-#wrap main #week_best_product_wrap .week_best_product_container li .one_line a:last-child em {}
-#wrap main #week_best_product_wrap .week_best_product_container li .two_line {}
-#wrap main #week_best_product_wrap .week_best_product_container li .two_line a {}
-#wrap main #week_best_product_wrap .week_best_product_container li .two_line a p {}
-#wrap main #week_best_product_wrap .week_best_product_container li .two_line a p:first-child {}
-#wrap main #week_best_product_wrap .week_best_product_container li .two_line a p:last-child {}
-#wrap main #review_check_item {}
-#wrap main #review_check_item .review_product_title {}
-#wrap main #review_check_item .review_product_title h2 {}
+#wrap main #week_best_product_wrap {padding:50px 0; background-color:#f5f5f5; margin-bottom:80px;}
+#wrap main #week_best_product_wrap .topic_more {display:flex; justify-content:space-between; max-width:1400px; margin:0 auto 50px; align-items:end;}
+#wrap main #week_best_product_wrap .topic_more h2 {font-size:1.5rem; font-weight:600;}
+#wrap main #week_best_product_wrap .topic_more a {}
+#wrap main #week_best_product_wrap .topic_more a em {font-size:0.875rem; font-weight:500;}
+#wrap main #week_best_product_wrap .topic_more a img {}
+#wrap main #week_best_product_wrap .week_best_product_container {max-width:1250px; margin:0 auto; display:flex; justify-content:space-between;}
+#wrap main #week_best_product_wrap .week_best_product_container li {display:flex; align-items:center;}
+#wrap main #week_best_product_wrap .week_best_product_container li .week_best_product_content {width:200px;}
+#wrap main #week_best_product_wrap .week_best_product_container li::after {
+    content:''; display:block; background-color:#fff; width:1px; height:360px; margin-left:31px;
+}
+#wrap main #week_best_product_wrap .week_best_product_container li:last-child::after {display:none;}
+#wrap main #week_best_product_wrap .week_best_product_container li .week_best_product_content > a {}
+#wrap main #week_best_product_wrap .week_best_product_container li .week_best_product_content > a img {}
+#wrap main #week_best_product_wrap .week_best_product_container li .week_best_product_content .one_line {display:flex; justify-content:space-between; align-items:center; padding:0 15px; margin:12px 0 20px;}
+#wrap main #week_best_product_wrap .week_best_product_container li .week_best_product_content .one_line a {}
+#wrap main #week_best_product_wrap .week_best_product_container li .week_best_product_content .one_line a:first-child {font-size:0.875rem;}
+#wrap main #week_best_product_wrap .week_best_product_container li .week_best_product_content .one_line a:last-child {display:flex; align-items:center;}
+#wrap main #week_best_product_wrap .week_best_product_container li .week_best_product_content .one_line a:last-child img {margin-right:2px;}
+#wrap main #week_best_product_wrap .week_best_product_container li .week_best_product_content .one_line a:last-child em {font-size:0.625rem;}
+#wrap main #week_best_product_wrap .week_best_product_container li .week_best_product_content .two_line {padding:0 15px;}
+#wrap main #week_best_product_wrap .week_best_product_container li .week_best_product_content .two_line a {height:71px; display:flex; flex-flow:column nowrap;justify-content:space-between;}
+#wrap main #week_best_product_wrap .week_best_product_container li .week_best_product_content .two_line a p {}
+#wrap main #week_best_product_wrap .week_best_product_container li .week_best_product_content .two_line a p:first-child {font-weight:600;}
+#wrap main #week_best_product_wrap .week_best_product_container li .week_best_product_content .two_line a p:last-child {font-weight:600; font-size:1.125rem;}
+#wrap main #review_check_item {max-width:1400px; margin:0 auto;}
+#wrap main #review_check_item .review_product_title {display:flex; justify-content:space-between; align-items:end; margin-bottom:50px;}
+#wrap main #review_check_item .review_product_title h2 {font-size:1.5rem; font-weight:600;}
 #wrap main #review_check_item .review_product_title a {}
-#wrap main #review_check_item .ul {}
-#wrap main #review_check_item .ul li {}
-#wrap main #review_check_item .ul li > a {}
-#wrap main #review_check_item .ul li > a img {}
-#wrap main #review_check_item .ul li .product_contents {}
-#wrap main #review_check_item .ul li .product_contents .contents_top {}
-#wrap main #review_check_item .ul li .product_contents .contents_top .brand_title {}
-#wrap main #review_check_item .ul li .product_contents .contents_top .brand_title a {}
-#wrap main #review_check_item .ul li .product_contents .contents_top .brand_title a span {}
-#wrap main #review_check_item .ul li .product_contents .contents_top .brand_title a em {}
-#wrap main #review_check_item .ul li .product_contents .contents_top button {}
+#wrap main #review_check_item .review_product_title a em {}
+#wrap main #review_check_item .review_product_title a img {}
+#wrap main #review_check_item ul {width:1294px; margin:0 auto;}
+#wrap main #review_check_item ul li {width:286px; padding:12px 18px;}
+#wrap main #review_check_item ul li > a {display:block; height:270px; width:250px;}
+#wrap main #review_check_item ul li > a img {line-height:270px; display:block;}
+#wrap main #review_check_item ul li .product_contents {}
+#wrap main #review_check_item ul li .product_contents .contents_top {display:flex; padding:20px 24px 12px;}
+#wrap main #review_check_item ul li .product_contents .contents_top .brand_title {display:flex; flex-flow:column nowrap;}
+#wrap main #review_check_item ul li .product_contents .contents_top .brand_title a {}
+#wrap main #review_check_item ul li .product_contents .contents_top .brand_title a:first-child {margin-bottom:4px;}
+#wrap main #review_check_item ul li .product_contents .contents_top .brand_title a span {font-size:0.75rem;}
+#wrap main #review_check_item ul li .product_contents .contents_top .brand_title a em {font-size:0.875rem; font-weight:600;}
+#wrap main #review_check_item ul li .product_contents .contents_top button {}
 #wrap main #review_check_item .ul li .product_contents .contents_top button img {}
-#wrap main #review_check_item .ul li .product_contents .contents_bottom {}
-#wrap main #review_check_item .ul li .product_contents .contents_bottom a {}
-#wrap main #review_check_item .ul li .product_contents .contents_bottom a > p {}
-#wrap main #review_check_item .ul li .product_contents .contents_bottom a .review_star_writer {}
-#wrap main #review_check_item .ul li .product_contents .contents_bottom a .review_star_writer .review_star_writer {}
-#wrap main #review_check_item .ul li .product_contents .contents_bottom a .review_star_writer .review_star_writer .review_star {}
-#wrap main #review_check_item .ul li .product_contents .contents_bottom a .review_star_writer .review_star_writer .review_star img {}
-#wrap main #review_check_item .ul li .product_contents .contents_bottom a .review_star_writer .review_star_writer .review_star img:last-child {}
-#wrap main #review_check_item .ul li .product_contents .contents_bottom a .review_star_writer p {}
+#wrap main #review_check_item ul li .product_contents .contents_bottom {}
+#wrap main #review_check_item ul li .product_contents .contents_bottom a {}
+#wrap main #review_check_item ul li .product_contents .contents_bottom a > p {}
+#wrap main #review_check_item ul li .product_contents .contents_bottom a .review_star_writer {}
+#wrap main #review_check_item ul li .product_contents .contents_bottom a .review_star_writer .review_star_writer {}
+#wrap main #review_check_item ul li .product_contents .contents_bottom a .review_star_writer .review_star_writer .review_star {}
+#wrap main #review_check_item ul li .product_contents .contents_bottom a .review_star_writer .review_star_writer .review_star img {}
+#wrap main #review_check_item ul li .product_contents .contents_bottom a .review_star_writer .review_star_writer .review_star img:last-child {}
+#wrap main #review_check_item ul li .product_contents .contents_bottom a .review_star_writer p {}
 #wrap footer {}
 #wrap footer .basics_contents {}
 #wrap footer .basics_contents .email {}
