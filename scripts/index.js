@@ -8,6 +8,9 @@ const pinkColorTitleBorder = document.querySelector('.pink_color .color_title');
 const bestProductWrap = document.querySelector('.best50_product_wrap');
 const artProductWrap = document.querySelector('.art_product_wrap ul');
 const weekBestProductWrap = document.querySelector('.week_best_product_container')
+const reviewItemWrap = document.querySelector('#review_check_item ul');
+const allMenuBtn = document.querySelector('.all_menu button');
+const lnb = document.querySelector('.lnb');
 for(let i = 0; i < 4; i++){
     const colorProduct = document.querySelector('.red_product_container');
     const copyProduct = colorProduct.cloneNode(true);
@@ -159,7 +162,6 @@ for(let i = 0; i<2; i++){
 }
 const artProducts = document.querySelectorAll('.art_product_wrap ul li');
 artProducts.forEach((obj, idx)=>{
-    console.log(obj.children[0].children[1].children[1])
     obj.children[0].children[0].src = artProductDB[idx].src
     obj.children[0].children[1].children[0].textContent = artProductDB[idx].brand;
     obj.children[0].children[1].children[1].textContent = artProductDB[idx].title;
@@ -176,10 +178,49 @@ for(let i = 0; i<4; i++){
 }
 const weekBestProducts = document.querySelectorAll('.week_best_product_container li');
 weekBestProducts.forEach((obj,idx)=>{
-    console.log(obj,idx)
     obj.children[0].children[0].children[0].src = weekBestProductDB[idx].src;
     obj.children[0].children[1].children[0].textContent = weekBestProductDB[idx].brand;
     obj.children[0].children[1].children[1].children[1].textContent = weekBestProductDB[idx].reviewnum;
     obj.children[0].children[2].children[0].children[0].textContent = weekBestProductDB[idx].title;
     obj.children[0].children[2].children[0].children[1].textContent = `${weekBestProductDB[idx].price.toLocaleString('ko-kr')}원`;
+})
+for(let i = 0; i<3; i++){
+    const reviewItemList = document.querySelector('#review_check_item ul li');
+    const clonereviewItem = reviewItemList.cloneNode(true);
+    reviewItemWrap.appendChild(clonereviewItem);
+}
+const reviewItems = document.querySelectorAll('#review_check_item ul li');
+reviewItems.forEach((obj,idx)=>{
+    obj.children[0].children[0].src = reviewItemDB[idx].src;
+    obj.children[1].children[0].children[0].children[0].children[0].textContent = reviewItemDB[idx].brand;
+    obj.children[1].children[0].children[0].children[1].children[0].textContent = reviewItemDB[idx].title;
+    obj.children[1].children[1].children[0].children[0].textContent = `${reviewItemDB[idx].percent}%`;
+    obj.children[1].children[1].children[0].children[1].textContent = `${reviewItemDB[idx].price.toLocaleString('ko-kr')}원`;
+    obj.children[1].children[2].children[0].children[0].innerHTML = reviewItemDB[idx].text;
+    obj.children[1].children[2].children[0].children[1].children[1].textContent = reviewItemDB[idx].id;
+    if(reviewItemDB[idx].percent == ''){
+        obj.children[1].children[1].children[0].children[0].textContent = '';
+        obj.children[1].children[1].children[0].children[0].style.marginRight = '0';
+    }
+})
+lnb.style.opacity = 0;
+allMenuBtn.addEventListener('click',()=>{
+    if(lnb.style.opacity == 0){
+        lnb.style.opacity = 1;
+        lnb.style.width = '1044px';
+        lnb.style.padding = '20px 58px';
+    }else{
+        lnb.style.opacity = 0;
+        lnb.style.width = '0';
+        lnb.style.padding = '0';
+    }
+})
+const aMoveNone = document.querySelectorAll('a');
+aMoveNone.forEach((obj)=>{
+    const href = obj.getAttribute('href');
+    obj.addEventListener('click',function(e){
+        if(href == '#'){
+            e.preventDefault();
+        }
+    });
 })
