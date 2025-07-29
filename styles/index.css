@@ -17,7 +17,7 @@
 #wrap header #header_bottom .header_bottom_left nav .gnb > a {font-weight:500; margin-right:30px;}
 #wrap header #header_bottom .header_bottom_left nav .gnb > a:last-child {margin-right:0px;}
 #wrap header #header_bottom .header_bottom_left nav .gnb .all_menu {position:relative;}
-#wrap header #header_bottom .header_bottom_left nav .gnb .lnb {position:absolute; top:0px; left:30px; background-color:#fff; flex-flow:row wrap; width:0px; padding:20px 58px; z-index:800; transition:all 0.2s linear; opacity:0; display:flex; height:129px; overflow:hidden;}
+#wrap header #header_bottom .header_bottom_left nav .gnb .lnb {position:absolute; top:0px; left:30px; background-color:#fff; flex-flow:row wrap; width:0px; padding:0px 0px; z-index:800; transition:all 0.2s linear; opacity:0; display:flex; height:129px; overflow:hidden;}
 #wrap header #header_bottom .header_bottom_left nav .gnb .lnb a {font-weight:600; margin:0 70px 40px 0; display:block; width:max-content;}
 #wrap header #header_bottom .header_bottom_left nav .gnb .lnb a:nth-child(9n) {margin-right:0px;}
 #wrap header #header_bottom .header_bottom_left nav .gnb .lnb a:nth-child(9)~a {margin-bottom:0px;}
